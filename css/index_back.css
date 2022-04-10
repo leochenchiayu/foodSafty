@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+[class^="col"] {
+    float: left;
+    padding: 15px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* height: 100px; */
+}
+
+header {
+    background: url("https://www.unido.org/sites/default/files/styles/fullwidth_image/public/styles/1_1_crop_widget/public/2017-12/supermarket-2384476.jpg?itok=o4BekLPR") no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 50px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+nav a,
+nav li {
+    color: black;
+    font-size: 20px;
+}
+
+nav .menu {
+    float: right;
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+#h1 {
+    float: right;
+    margin-right: 20px;
+}
+
+#h1 h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.form_submit {
+    margin: auto;
+    width: 70%;
+}
+
+#content {
+    position: relative;
+}
+
+#content label {
+    top: 0;
+    position: absolute;
+}
+
+#content textarea {
+    margin-top: 40px;
+    width: 100%;
+}
+
+#preview,
+#preview1 {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+#files {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img[src$='white2.png'] {
+    display: none;
+    visibility: hidden;
+    /*css*/
+}

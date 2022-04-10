@@ -1,0 +1,87 @@
+nav {
+    display: inline-block;
+    /* box-shadow: 2em 2em 4em 6px #00000057; */
+    width: 100%;
+}
+
+nav li {
+    border-radius: 0% 0%;
+    float: right;
+    margin: 10px;
+}
+
+nav ul {
+    margin-right: 30px;
+    float: right;
+    padding-bottom: 0;
+}
+
+.yourname {
+    float: left;
+    padding-bottom: 0;
+}
+
+.yourname li {
+    float: left;
+}
+
+header {
+    display: block;
+    border-radius: 0% 0%;
+    /* float: right; */
+    background: url("https://www.unido.org/sites/default/files/styles/fullwidth_image/public/styles/1_1_crop_widget/public/2017-12/supermarket-2384476.jpg?itok=o4BekLPR") no-repeat center center fixed;
+    background-size: cover;
+    height: 150px;
+    padding-bottom: 0px;
+    position: relative;
+    /* padding-top: 50px; */
+}
+
+h2 {
+    font-size: 60px;
+    margin-right: 30px;
+    bottom: 0px;
+    right: 0;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    position: absolute;
+    color: white;
+    /* display: block; */
+}
+
+.form_submit {
+    margin: auto;
+    width: 70%;
+}
+
+#content {
+    position: relative;
+}
+
+#content label {
+    top: 0;
+    position: absolute;
+}
+
+#content textarea {
+    margin-top: 40px;
+    width: 100%;
+}
+
+#preview {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+#files {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cancel {}

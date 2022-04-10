@@ -1,0 +1,138 @@
+header {
+    border-radius: 0% 0% 100% 0%;
+    height: 200px;
+    padding-bottom: 0px;
+}
+
+body {
+    background-image: url("https://www.unido.org/sites/default/files/styles/fullwidth_image/public/styles/1_1_crop_widget/public/2017-12/supermarket-2384476.jpg?itok=o4BekLPR");
+    background-size: 80% 100%;
+    background-position: top right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 40px;
+    margin-right: 100px;
+    padding-top: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin-top: 40px;
+    float: right;
+}
+
+.h1_2 {
+    margin-right: 30px;
+}
+
+.c1 {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    top: 0px;
+    right: 170px;
+    box-shadow: 0.1em 0.1em 0.2em black;
+    /* padding: 20px; */
+}
+
+.c1::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 90px;
+    /* right: 70px; */
+    background: white;
+    position: absolute;
+    margin: auto;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+nav {
+    border-radius: 0% 0% 0% 0%;
+    float: left;
+    max-height: 100%;
+}
+
+
+nav ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#product {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+#search{
+    /* position:fixed; */
+    height: 600px;
+    transition: translateX(-600px);
+    z-index: 50;
+    background: white;
+    border-right: 2px solid rgb(192, 192, 192,.9);
+    border-bottom: 2px solid rgb(192, 192, 192,.9);   
+}
+
+.search{
+    /* float:right; */
+    position: relative;
+    float:right;
+    cursor:pointer;
+    border-radius:15px;
+}
+
+.search h1{
+    margin-right: 0;
+    padding-top: 0;
+    padding: 40px;
+    color:white;
+    margin-top:0;
+}
+
+.query_word{
+    position: fixed;
+
+}
+
+.query_word{
+    display: none;
+}
+
+.modal{
+    display:block;
+    background: rgba(0,0,0,.5);
+}
+
+.modal-content{
+    height: 500px;
+}
+
+.modal button{
+    float:right;
+    margin-top: 20px;
+}
+
+.modal-body{
+    overflow-y: auto;
+}
+
+
+
+/* a:active{
+    background-color:#292d3e;
+    background-size: 100%;
+    transition: background 0s;
+} */
