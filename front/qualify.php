@@ -93,7 +93,6 @@
                     "async": true,
                     "crossDomain": true,
                     "url": "../php/qualify.php",
-                    // "method":"GET",
                     "data": { data:JSON.stringify(data) }
                 }
                 $.get(settings).done(function(response){
