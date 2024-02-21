@@ -31,7 +31,7 @@
     }
     else
     {
-        echo "{$sql} 語法執行失敗，錯誤訊息：" . mysqli_error($mysql);
+        //echo "{$sql} 語法執行失敗，錯誤訊息：" . mysqli_error($mysql);
 
     }
     
