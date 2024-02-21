@@ -5,7 +5,7 @@ $dbuser = 'root';
 $dbpw = 'L125539477';
 $dbname = 'member_info';
 
-$mysql = mysqli_connect($host, $dbuser, $dbpw, $dbname);
+$mysql = new PDO($host, $dbuser, $dbpw, $dbname);
 
 if ($mysql)
 {
