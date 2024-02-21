@@ -17,5 +17,5 @@ jobs:
         with:
           args: >
               -Dsonar.organization=leochenchiayu
-              -Dsonar.projectKey=foodSafty
+              -Dsonar.projectKey=leochenchiayu_foodSafty
               -Dsonar.python.coverage.reportPaths=coverage.xml
