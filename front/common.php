@@ -180,7 +180,7 @@
 <script>
     $(document).ready(function(){
         $("body").css("background","transparent");
-
+        //Lazy Load    
         $('.lazy').Lazy();
     })
 </script>
