@@ -13,6 +13,6 @@ if ($mysql)
 }
 else
 {
-  echo '無法連線mysql資料庫 :<br/>' . mysqli_connect_error();
+  //echo '無法連線mysql資料庫 :<br/>' . mysqli_connect_error();
 }
 ?>
